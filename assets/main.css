@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
+
+* {
+    border: 0;
+    font: inherit;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #eeecec;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #505050;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+#banner {
+    margin-top: 3rem;
+    box-shadow: 1px 1px 50px #000000;
+    border-radius: 10px;
+
+}
+
+/* .keynote {
+    margin-top: 3rem;
+    box-shadow: 1px 1px 50px #000000;
+    border-radius: 10px;
+} */
+
+/* Style for the navigation */
+.navigation {
+    margin-top: 20px;
+    padding: 10px; /* Add padding to the navigation bar */
+    text-align: center; /* Center the navigation items */
+}
+
+/* Style for the navigation anchor tags */
+.navigation a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(5, 120, 173); /* Set text color */
+    font-weight: bold; /* Make text bold */
+    font-size: 1.5em; /* Set font size */
+    padding: 8px 15px; /* Add padding to anchor tags */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    margin: 0 10px; /* Add spacing between navigation items */
+}
+
+/* Hover effect for anchor tags */
+.navigation a:hover {
+    background-color: #c9e9a9; /* Change background color on hover */
+    color: #000000; /* Change text color on hover */
+}
+/* End of NavBar */
+
+
+a {
+    color: #b8860b;
+    text-decoration: none;
+}
+
+a.current {
+    color: #52739e;
+}
+
+a.current:hover {
+    color: #e82945;
+}
+
+a:hover {
+    color: #b2132e;
+}
+
+a:active {
+    color: #e82945;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    clear: left;
+    color: #813c54;
+    margin: 1.5em 0em 1em 0em;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px 2px #d0d0d0;
+}
+
+h1 {
+    font-size: 2.67em;
+}
+
+h2 {
+    font-size: 2.00em;
+}
+
+h3 {
+    font-size: 1.67em;
+}
+
+h4 {
+    font-size: 1.33em;
+}
+
+p {
+    list-style: none;
+    margin: 24px auto 24px auto;
+    padding: 0px;
+    width: 900px;
+    text-align: left;
+}
+
+li a,
+p a {
+    text-decoration: underline;
+    text-decoration-color: #b8860b;
+}
+
+ul {
+    list-style: none;
+    margin: 24px ;
+    padding: 4px;
+    width: 800px;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+    text-align: left;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 0.8em;
+    line-height: 0;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: 0.8em;
+    line-height: 0;
+}
+/* Navigation Bar */
+
+
+/* End Navigation Bar */
+
+/* for home page sponse sectioin */
+.sponser1 {
+    height: 50%; /* Set a fixed height for each sponsor */
+    width: 40%; /* Set a fixed width for each sponsor */
+    display: inline-block; /* Display divs in the same line */
+    vertical-align: top; /* Align them to the top to handle varying heights */
+    margin-left: 33%; /* Add spacing between sponsers */
+    padding: 10px;
+    justify-content: center;
+    text-align: center; /* Align text to the center within each sponser */
+    box-shadow: 0 0 10px #000000; /* Optional: Add a shadow to each sponser */
+    border-radius: 8px; /* Optional: Add rounded corners to the sponser */
+}
+
+.line2 {
+    text-align: center; /* Optional: Center the content horizontally */
+}
+
+.sponser2,
+.sponser3 {
+    height: 50%; /* Set a fixed height for each sponsor */
+    width: 40%; /* Set a fixed width for each sponsor */
+    display: inline-block; /* Display divs in the same line */
+    vertical-align: top; /* Align them to the top to handle varying heights */
+    margin: 30px; /* Add spacing between sponsers */
+    padding: 10px;
+    text-align: center; /* Align text to the left within each sponser */
+    box-shadow: 0 0 10px #000000; /* Optional: Add a shadow to each sponser */
+    border-radius: 10px; /* Optional: Round the corners of each sponser */
+}
+
+/* end of Sponser */
+
+
+table {
+    width: 1000px;
+    margin: 12px auto 24px auto;
+    float: center;
+    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+    /*border: 1px solid black;*/
+}
+
+th,
+td {
+    text-align: left;
+    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
+    /*border: 1px solid black;*/
+}
+
+/* Website Banner */
+.banner {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top-left {
+    font-size: 5.33em;
+    color: #505050;
+    
+    text-align: center;
+    width: 1000px;
+    height: 67px;
+    position: absolute;
+    padding: 36px 0 0 0;
+    top: 0px;
+}
+
+.bottom-right {
+    font-size: 2.33em;
+    color: #fafafa;
+    line-height: 1.5em;
+    width: auto;
+    height: 100px;
+    padding: 0px 27px 27px 0px;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-shadow: 0px 0px 6px #000000;
+}
+
+/* Conference Title Logo */
+.title1 {
+    color: #b2132e;
+    text-shadow: 1px 1px 3px #c0c0c0;
+}
+
+.title2 {
+    color: #52739e;
+    text-shadow: 1px 1px 3px #c0c0c0;
+}
+
+.year {
+    color: #505050;
+    font-size: 0.67em;
+    font-weight: lighter;
+}
+
+
+
+
+/* organizers page css */
+.Keynote {
+    text-align: center; /* Center the content horizontally */
+}
+
+.sponsors {
+    
+    display: inline-block; /* Display divs in the same line */
+    vertical-align: top; /* Align them to the top to handle varying heights */
+    margin: 10px; /* Add spacing between sponsors */
+    text-align: center; /* Align text to the center within each sponsor */
+    box-shadow: 0 0 10px #000000; /* Optional: Add a shadow to each sponser */
+    border-radius: 10px; /* Optional: Round the corners of each sponser */
+    
+    padding: 10px; /* Add padding to each sponsor */
+}
+
+a img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image round */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply box shadow */
+}
+
+
+.Keynote h3 {
+    margin-bottom: 10px; /* Add spacing below each h3 heading */
+}
+
+
+/* End of Organiser css */
+
+
+/* Map css */
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Navigation Links (Home, Registration, etc) */
+
+footer {
+    font-size: 0.875em;
+    margin-top: 12em;
+    text-align: center;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    h2 {
+        font-size: 3.00em;
+    }
+    
+    p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    
+    th,
+    td,
+    tr {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    
+    td.date {
+        font-size: 1em;
+        padding-top: 0.5em;
+    }
+    
+    td.navigation {
+        font-size: 1.5em;
+        padding: 0px 20px 0px 20px;
+    }
+
+    table.footer {
+        font-size: 0.33em;
+    }
+}
