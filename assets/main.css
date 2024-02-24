@@ -326,9 +326,21 @@ footer {
     margin-top: 12em;
     text-align: center;
 }
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
- @keyframes blink {
+
+ @keyframes blink1 {
             0% { color: #ff0000; }
             50% { color: #00ff00; }
             100% { color: #ff0000; }
