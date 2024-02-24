@@ -280,7 +280,7 @@ td {
     text-align: center; /* Align text to the center within each sponsor */
     box-shadow: 0 0 10px #000000; /* Optional: Add a shadow to each sponser */
     border-radius: 10px; /* Optional: Round the corners of each sponser */
-    
+     width: 29%;
     padding: 10px; /* Add padding to each sponsor */
 }
 
