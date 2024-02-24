@@ -21,3 +21,12 @@ function showNextImage() {
 
 // Change image every 3 seconds (adjust as needed)
 setInterval(showNextImage, 3500);
+
+
+var typed = new Typed(".text", {
+    strings: ["Economics", "Computer and Information Sciences", "Anthropology"],
+    typeSpeed: 90,
+    backSpeed: 90,
+    backDelay: 1000,
+    loop: true
+});
