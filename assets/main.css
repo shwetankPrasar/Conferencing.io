@@ -296,8 +296,8 @@ td {
 }
 
 a img {
-    width: 80px; /* Adjust the width as needed */
-    height: 80px; /* Adjust the height as needed */
+    width: 120px; /* Adjust the width as needed */
+    height: 120px; /* Adjust the height as needed */
     border-radius: 50%; /* Make the image round */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply box shadow */
 }
