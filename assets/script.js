@@ -24,7 +24,7 @@ setInterval(showNextImage, 3500);
 
 
 var typed = new Typed(".text", {
-    strings: ["Economics", "Computer and Information Sciences", "Anthropology"],
+    strings: ["School Of Economics", "School of Computer and Information Sciences", "Department of Anthropology"],
     typeSpeed: 90,
     backSpeed: 90,
     backDelay: 1000,
